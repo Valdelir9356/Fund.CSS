@@ -1,0 +1,90 @@
+
+
+****/INTEGRAÇÃO DE IMAGEM+TESMO+LISTA +LINK****HTML/*****
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRUPO 2X2</title>
+</head>
+<LINK rel="STYLESHEET" TYPE="TEXT/CSS" href="./css/MAIN.CSS">
+<body bgcolor="EOEOEO"></body>
+<FONT SIZE="5"COLOR="GREEN">NAVEGADORES</FONT>
+<P>
+    
+</P>
+<TR>
+    <A HREF="https://www.google.com"GOOGLE><img src="./img/GOOGLE.JPEG"WIDTH="60"HEIGT="60"></A>
+    <A HREF="https://www.google.com"FIREFOX><img src="./img/Arara.jpeg"WIDTH="80"HEIGT="70"></A>
+        <A HREF="https://www.google.com"EDGE><img src="./img/EDGE.JPEG"WIDTH="100"HEIGT="80"></A>
+            <A HREF="https://www.google.com"INTERNET><img src="./img/INTERNET.JPEG"WIDTH="90"HEIGT="70"></A>
+             </TR>
+             <br><br><br><div class="BARRA"></div>
+            
+            
+              <P style="font-family: Verdana, Geneva, Tahoma, sans-serif;text-align: justify;">
+              Ao longo dos anos 70 e meados dos anos 80 muitas
+universidades conectaram-se a essa rede, o que moveu a
+determinação militarista do uso da rede para um fundamento
+mais cultural e acadêmico. Nos meados dos anos 80 a NSF -
+National Science Foundation dos EUA (algo como o CNPq do
+Brasil) constitui uma rede de fibra ótica de alta velocidade
+conectando centros de supercomputação localizados em pontos
+chave no EUA. Essa rede da NSF, chamada de "backbone
+(espinha dorsal) da NSF", teve um papel fundamental no
+desenvolvimento da Internet nos últimos 10 anos por reduzir,
+substancialmente, o custo da comunicação de dados para as
+redes de computadores existentes, que foram amplamente
+estimuladas a se conectar ao "backbone" da NSF. O controle da
+"backbone" mantido pela NSF encerrou-se em abril de 1995,
+sendo passado, em sua grande totalidade, para o controle
+privado. Ao longo dos últimos 5 anos e, especialmente, nos
+últimos dois anos, o interesse comercial pelo uso da Internet
+cresceu substancialmente. Muito possivelmente o interesse
+comercial, ao lado do cultural e acadêmico, constituirá a principal
+motivação para utilização da Internet nos próximos anos.
+
+              </P>
+
+              <img src="./imG/Arara.jpeg"WIDTH="20%"HEIGT="30"></A>
+
+             <ol class="lista ">plataforma digitais mais projedadas para 2026;
+              <li>Netflix</li>
+              <li>amazon</li>
+              <li>Apple TV ou Disney</li>
+              <li>HBO Max</li>
+             </ol>
+
+
+   
+                
+
+    
+</body>
+</html>
+
+/****CSS*****/
+
+.BARRA{
+   background-color:rgb(36, 129, 53);
+   margin-left: -10px;
+   margin-right: -10px;
+    width: 100%;
+   height: 20px;
+  
+  
+}
+.ALINHAMENTO{
+    text-align:justify; 
+}
+.lista{
+    position: relative;
+    right: 10px;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+*RESULTADO*
+
