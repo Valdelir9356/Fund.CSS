@@ -1,0 +1,54 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <BODY bgcolor="eoeoeo">
+    <Form action="maito:valdelirsutiel@gmail.com"method="post" 
+    enctype="text/plain"name="Cadastro" >
+    <p> por favor, preencha os campos abaixo e clique  no botão enviar. Caso 
+        nescessita apagar os dados, de um clique no botão limpar.<br> Muito Obrigado!
+        <br><br><br>  </p>
+        Nome Completo: <input type="text" nome="Nome" size="35">
+        e-mail:<input type="text" name="email" size="35"><br>
+        sexo:<br>
+        <input type="radio" name="sexo" value="F">Feminino<br> 
+        <input type="radio" name="sexo" value="M">Masculino<br> <br>
+
+        Estado Civil:<br>
+        <input type="radio" name="civil" value="S">Solteiro<br>
+        <input type="radio" name="civil" value="C">casado<br>
+        <input type="radio" name="civil" value="D">divorciado<br>
+        <input type="radio" name="civil" value="F">Freelance<br>
+
+        
+        Bens que possui: <br>
+        <input type="checkbox" name="bens" value="c">Casa<br>
+        <input type="checkbox" name="bens" value="A">Automovel<br>
+        <input type="checkbox" name="bens" value="T">Terreno<br>
+        <input type="checkbox" name="bens" value="B">Barco<br><br>
+
+        Faixa de idade:<select name="FaixaIdade">
+            <option value="3a10"> 3 a 10 anos
+                <option value="11a25">11 a 25 anos
+                    <option value="26a35">26 a 35 anos
+                        <option value="36a55">36 a 55 anos
+                            <option value="56a108">56 a 108 anos
+                                </select>
+            hobby preferido:<select name="Hobby">
+                <option value="Livros"> ler Livros
+                    <option value="Pesquisa">fazer pesquisa de autoapendizado 
+                        <option value="Musica">ouvir musicas
+                            <option value="Cinema">ir ao cinema
+                                <option value="corrida">praticar corridas
+            </select><br><br>
+            Observações Gerais:<br>
+            <textarea name="Observações" rows="5" cols="60"></textarea><br> 
+                <input type="submit" value="Enviar os dados">
+                <input type="reset" value="Limpar os dados"><br><br>
+                <IMG SRC="./img/arara.GIF"WIDTH="30%"HEIGT="50">
+
+
+</Form>
+</BODY>
+</HTML>
+
+
