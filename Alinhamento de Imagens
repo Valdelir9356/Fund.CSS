@@ -1,0 +1,72 @@
+***html***
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <LINK rel="STYLESHEET" TYPE="TEXT/CSS" href="./CSS/estilo.css">   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhando Imagens</title>
+</head>
+<body>
+    <main>
+    <UL class="Produtos ">
+        <li>
+            <h2>lingeri</h2>
+            <img src="./imga/lang.JPEG"
+            <p class ="Produto">Coleção lingeri</p>
+            <pc lass="Produto-Preço">R$65,00</p>
+        </li>
+        <li>
+            <h2>Calçinhas</h2>
+            <img src="./imga/CALCINHAS.JPEG"
+            <p class ="Produto">Coleção Calcinhas</p>
+            <pc lass="Produto-Preço">R$45,00</p>
+        </li>
+        <li>
+            <h2>cuecas</h2>
+            <img src="./imga/CUECAS.JPEG"
+            <p class ="Produto">Coleção Cuecas</p>
+            <pc lass="Produto-Preço">R$35,00</p>
+        </li>
+    </UL>
+</main>
+</body>
+</html>
+
+
+***css***
+.Produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.Produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background-color: #ffbdc7;
+}
+.Produtos img{
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+.Produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.Produtos-descrição{
+    font-size: 18px;
+
+}
+.Produtos-preço{
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 20px;
+}
